@@ -1,0 +1,40 @@
+body {
+    margin-top: 56px;
+    text-align: center;
+    background-image: url("../img/wave.png");
+    background-repeat: repeat;
+/*    background-color: #39778e*/
+}
+
+table {
+    margin: 24px auto;
+    table-layout: fixed;
+}
+
+.img {
+    border: 10px solid #000000;
+    max-width: 70%;
+    background: linear-gradient(#d7f2a4, #ffecaf);
+`}
+
+.button {
+    padding: 2px 3px 2px 3px;
+    font-family: 'Press Start 2P';
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: -1px -1px 1px #070707, 1px 1px 1px #fff;
+    letter-spacing: 5px;
+    outline: none;
+    color: #fff;
+    background-color: #ce2129;
+    border: none;
+    box-shadow: 0 4px #070707;
+}
+
+.button:active {
+    background-color: #1ba84b;
+    box-shadow: 0 4px #070707;
+    transform: translateY(4px);
+}
